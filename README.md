@@ -67,6 +67,93 @@ Handles:
 - partitioning  
 - bootloader setup  
 - reboot into installer  
+┌──────────────────────────────┐
+│     WinToLinux Web App       │
+│  (technews365.fr/wintolinux) │
+└───────────────┬──────────────┘
+│ Generates
+▼
+install-profile.json
+│
+▼
+┌──────────────────────────────┐
+│      WinToLinux Agent        │
+│        (Windows .exe)        │
+├──────────────────────────────┤
+│ Downloads ISO                │
+│ Verifies checksum            │
+│ Shrinks NTFS (if needed)     │
+│ Creates Linux partition      │
+│ Prepares UEFI boot entry     │
+│ Reboots into installer       │
+└──────────────────────────────┘
+Code
+
+
+---
+
+## 📦 Supported Distributions
+
+- **TechNews365 OS Ultimate** (recommended)
+- LMDE 7
+- Debian 13
+- Ubuntu 24.04 LTS
+- Linux Mint 22
+- Zorin OS 17
+- Fedora Workstation
+- KDE Neon
+- Pop!_OS
+- And more…
+
+---
+
+## 🛠 Project Structure
+
+wintolinux/
+│
+├── web/                # Web App (HTML/CSS/JS/PHP)
+│   ├── api/            # distros.json, metadata
+│   ├── ui/             # pages, components
+│   └── assets/         # icons, css, branding
+│
+├── agent/              # Windows executable source
+│   ├── downloader/     # ISO download + checksum
+│   ├── partitioner/    # NTFS shrink + ext4 creation
+│   ├── bootloader/     # UEFI entry creation
+│   └── installer/      # profile interpreter
+│
+├── docs/               # documentation, diagrams
+│
+└── LICENSE             # GPLv3
+Code
+
+
+---
+
+## 📄 License
+
+WinToLinux 2.0 is released under the **GNU GPLv3** license.  
+See the `LICENSE` file for details.
+
+---
+
+## 🌐 Official Website
+
+**https://technews365.fr/wintolinux**
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Pull requests, issues, and feature suggestions are encouraged.
+
+---
+
+## ⭐ Support the Project
+
+If you like WinToLinux 2.0, give the repo a **star** ⭐  
+It helps visibility and supports future development.
 
 ---
 
