@@ -1,3 +1,4 @@
+![WinToLinux 2.0 Banner](assets/image.png)
 # WinToLinux 2.0  
 ### Install Linux from Windows — no USB, no ISO, no complexity.
 
