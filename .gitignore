@@ -1,23 +1,75 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# ============================
+# WinToLinux 2.0 - .gitignore
+# ============================
+
+# --- Windows Agent (C#, .NET, WinUI, etc.) ---
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.db
+*.log
+*.tmp
+*.bak
+*.nupkg
+*.snupkg
+*.vs/
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.vsconfig
+
+# --- Visual Studio ---
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# --- Build artifacts ---
+/publish/
+/artifacts/
+/out/
+/dist/
+
+# --- Web App (HTML/CSS/JS/PHP) ---
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+dist/
+build/
+.cache/
+.env
+.env.local
+.env.*.local
+
+# --- PHP ---
+vendor/
+composer.lock
+
+# --- Logs ---
+logs/
+*.log
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# --- ISO / Downloads ---
+*.iso
+downloads/
+cache/
+C:/WinToLinux/iso/
+
+# --- Install profiles ---
+install-profile.json
+profiles/
