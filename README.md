@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/webmasterdu63-creator/WinToLinux2.0/main/assets/image.png" alt="WinToLinux 2.0 Banner" width="100%">
+</p>
 # WinToLinux 2.0  
 ### Install Linux from Windows — no USB, no ISO, no complexity.
 
