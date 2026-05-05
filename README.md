@@ -59,35 +59,45 @@ The Windows Agent executes it automatically.
 
 ### 🔹 Cloud‑powered distro catalog  
 Hosted on **technews365.fr**, always up to date.
+WinToLinux 2.0 — Architecture
 
-### 🔹 Lightweight Windows Agent  
-Handles:  
-- ISO download  
-- checksum verification  
-- partitioning  
-- bootloader setup  
-- reboot into installer  
-┌──────────────────────────────┐
-│     WinToLinux Web App       │
-│  (technews365.fr/wintolinux) │
-└───────────────┬──────────────┘
-│ Generates
-▼
-install-profile.json
-│
-▼
-┌──────────────────────────────┐
-│      WinToLinux Agent        │
-│        (Windows .exe)        │
-├──────────────────────────────┤
-│ Downloads ISO                │
-│ Verifies checksum            │
-│ Shrinks NTFS (if needed)     │
-│ Creates Linux partition      │
-│ Prepares UEFI boot entry     │
-│ Reboots into installer       │
-└──────────────────────────────┘
-Code
+┌──────────────────────────────────────────────┐
+│            WinToLinux Web App                │
+│     (technews365.fr / Web Installer)         │
+│                                              │
+│  • Select distribution                        │
+│  • Choose install mode                        │
+│  • Generate install-profile.json              │
+│  • Provide ISO metadata (LTS, Stable, etc.)   │
+└───────────────────────────────┬──────────────┘
+                                │
+                                ▼
+                 install-profile.json
+                                │
+                                ▼
+┌──────────────────────────────────────────────┐
+│              WinToLinux Agent (Windows)       │
+│                                              │
+│  • Reads install-profile.json                 │
+│  • Downloads ISO                              │
+│  • Verifies checksum                          │
+│  • Shrinks NTFS (if alongside)                │
+│  • Creates Linux partition                    │
+│  • Prepares UEFI boot entry                   │
+│  • Reboots into Linux installer               │
+└───────────────────────────────┬──────────────┘
+                                │
+                                ▼
+┌──────────────────────────────────────────────┐
+│           TechNews365 / Linux Installer       │
+│                                              │
+│  • Auto-install using profile                 │
+│  • Configure system                           │
+│  • Install bootloader                         │
+│  • Finalize dual-boot                         │
+└──────────────────────────────────────────────┘
+
+
 
 
 ---
