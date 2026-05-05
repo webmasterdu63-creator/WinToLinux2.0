@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/image.png" width="100%">
+</p>
 # WinToLinux 2.0  
 ### Install Linux from Windows — no USB, no ISO, no complexity.
 
