@@ -196,7 +196,41 @@ Hosted on **technews365.fr**, always up to date.
 - Pop!_OS
 - And more…
 
+## 🏗️ WinToLinux 2.0 — Architecture
+
+### 1. WinToLinux Web App  
+(Hosted on technews365.fr)
+
+- Select distribution  
+- Choose install mode  
+- Generate `install-profile.json`  
+- Provide ISO metadata (LTS, Stable, etc.)
+
+⬇️ Produces: **install-profile.json**
+
 ---
+
+### 2. WinToLinux Agent (Windows)
+
+- Reads `install-profile.json`  
+- Downloads ISO  
+- Verifies checksum  
+- Shrinks NTFS (if alongside)  
+- Creates Linux partition  
+- Prepares UEFI boot entry  
+- Reboots into Linux installer  
+
+⬇️ Continues to installer
+
+---
+
+### 3. TechNews365 Linux Installer
+
+- Auto-install using profile  
+- Configure system  
+- Install bootloader  
+- Finalize dual-boot  
+
 
 ## 📄 License
 
@@ -207,8 +241,8 @@ See the `LICENSE` file for details.
 
 ## 🌐 Official Website
 
-**https://technews365.fr/wintolinux**
-
+**https://technews365.fr/
+https://php.technews365.fr/wintolinux2/?cache=1
 ---
 
 ## 🤝 Contributing
@@ -225,5 +259,5 @@ It helps visibility and supports future development.
 
 ---
 
-## 🧩 Architecture Overview
+
 
