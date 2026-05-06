@@ -198,42 +198,6 @@ Hosted on **technews365.fr**, always up to date.
 
 ---
 
-## 🛠 Project Structure
-## 🏗️ WinToLinux 2.0 — Architecture
-┌──────────────────────────────────────────────┐
-│              WinToLinux Web App              │
-│     (technews365.fr / Cloud Web Installer)   │
-│                                              │
-│  • Select distribution                        │
-│  • Choose install mode                        │
-│  • Generate install-profile.json              │
-│  • Provide ISO metadata (LTS, Stable, etc.)   │
-└───────────────────────────────┬──────────────┘
-                                │
-                                ▼  install-profile.json
-┌──────────────────────────────────────────────┐
-│            WinToLinux Agent (Windows)        │
-│                                              │
-│  • Reads install-profile.json                 │
-│  • Downloads ISO                              │
-│  • Verifies checksum                          │
-│  • Shrinks NTFS (if alongside)                │
-│  • Creates Linux partition                    │
-│  • Prepares UEFI boot entry                   │
-│  • Reboots into Linux installer               │
-└───────────────────────────────────────────────┬──────────────┘
-                                │
-                                ▼
-┌──────────────────────────────────────────────┐
-│        TechNews365 / Linux Installer          │
-│                                              │
-│  • Auto-install using profile                 │
-│  • Configure system                           │
-│  • Install bootloader                         │
-│  • Finalize dual-boot                         │
-└──────────────────────────────────────────────┘
----
-
 ## 📄 License
 
 WinToLinux 2.0 is released under the **GNU GPLv3** license.  
