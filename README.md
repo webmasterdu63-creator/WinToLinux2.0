@@ -9,7 +9,129 @@
 ![Dual Boot](https://img.shields.io/badge/Dual--Boot-Supported-orange)
 ![Auto Update](https://img.shields.io/badge/Auto--Updating-Web%20Catalog-purple)
 
+# WinToLinux 2.0  
+A modern WSL installer with a web interface and automated PowerShell deployment.  
+Un installateur WSL moderne avec interface web et déploiement PowerShell automatisé.
+
 ---
+
+## 🌐 Official Web Interface / Interface Web Officielle
+
+👉 https://php.technews365.fr/wintolinux2/?cache=1
+
+---
+
+# 🇫🇷 Version Française
+
+## 🚀 Présentation
+
+**WinToLinux 2.0** est un installateur WSL nouvelle génération permettant d’installer facilement une distribution Linux sur Windows grâce à :
+
+- une interface web moderne  
+- un script PowerShell automatisé  
+- une configuration complète (utilisateur, hostname, distro)  
+- une expérience bilingue FR/EN  
+- un design premium TechNews365  
+
+---
+
+## ✨ Fonctionnalités
+
+- Sélection de la distribution Linux (Ubuntu, Debian, Fedora, Arch, Mint, etc.)
+- Génération automatique de la commande PowerShell
+- Installation automatisée de WSL + distribution
+- Création de l’utilisateur Linux
+- Configuration du hostname
+- Interface bilingue Français / Anglais
+- Design moderne, responsive, premium
+
+---
+
+## 📥 Téléchargement
+
+Télécharger WinToLinux 2.0 (ZIP) :  
+👉 https://php.technews365.fr/wintolinux2/download/wintolinux2.zip
+
+---
+
+## 🛠️ Installation
+
+1. Télécharger et extraire le ZIP  
+2. Ouvrir `index.php` dans un navigateur  
+3. Choisir la distribution  
+4. Remplir les champs utilisateur / hostname  
+5. Copier la commande générée  
+6. Ouvrir PowerShell en administrateur  
+7. Coller la commande → l’installation démarre automatiquement
+
+---
+
+## 📌 Prérequis
+
+- Windows 10/11  
+- PowerShell (admin)  
+- WSL activé automatiquement par le script  
+
+---
+
+# 🇬🇧 English Version
+
+## 🚀 Overview
+
+**WinToLinux 2.0** is a next‑generation WSL installer that allows you to install a Linux distribution on Windows using:
+
+- a modern web interface  
+- an automated PowerShell script  
+- full configuration (user, hostname, distro)  
+- bilingual FR/EN experience  
+- premium TechNews365 design  
+
+---
+
+## ✨ Features
+
+- Choose your Linux distribution (Ubuntu, Debian, Fedora, Arch, Mint, etc.)
+- Automatic PowerShell command generation
+- Automated installation of WSL + distribution
+- Linux user creation
+- Hostname configuration
+- Bilingual French / English interface
+- Modern, responsive, premium UI
+
+---
+
+## 📥 Download
+
+Download WinToLinux 2.0 (ZIP):  
+👉 https://php.technews365.fr/wintolinux2/download/wintolinux2.zip
+
+---
+
+## 🛠️ Installation
+
+1. Download and extract the ZIP  
+2. Open `index.php` in your browser  
+3. Select your distribution  
+4. Fill in username / hostname  
+5. Copy the generated command  
+6. Open PowerShell as Administrator  
+7. Paste the command → installation starts automatically  
+
+---
+
+# 👨‍💻 Author / Auteur
+
+**Jean – TechNews365**  
+Creator of WinToLinux 2.0  
+https://technews365.fr
+
+---
+
+# 📄 License
+
+MIT License (optional — you can change it)
+
+
 https://php.technews365.fr/wintolinux2/?cache=1
 ## 🚀 What is WinToLinux 2.0 ?
 
