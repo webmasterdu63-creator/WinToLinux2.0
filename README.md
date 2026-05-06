@@ -182,11 +182,11 @@ The Windows Agent executes it automatically.
 
 ### 🔹 Cloud‑powered distro catalog  
 Hosted on **technews365.fr**, always up to date.
-WinToLinux 2.0 — Architecture
+## 🏗️ WinToLinux 2.0 — Architecture
 
 ┌──────────────────────────────────────────────┐
-│            WinToLinux Web App                │
-│     (technews365.fr / Web Installer)         │
+│              WinToLinux Web App              │
+│     (technews365.fr / Cloud Web Installer)   │
 │                                              │
 │  • Select distribution                        │
 │  • Choose install mode                        │
@@ -194,12 +194,9 @@ WinToLinux 2.0 — Architecture
 │  • Provide ISO metadata (LTS, Stable, etc.)   │
 └───────────────────────────────┬──────────────┘
                                 │
-                                ▼
-                 install-profile.json
-                                │
-                                ▼
+                                ▼  install-profile.json
 ┌──────────────────────────────────────────────┐
-│              WinToLinux Agent (Windows)       │
+│            WinToLinux Agent (Windows)        │
 │                                              │
 │  • Reads install-profile.json                 │
 │  • Downloads ISO                              │
@@ -212,15 +209,13 @@ WinToLinux 2.0 — Architecture
                                 │
                                 ▼
 ┌──────────────────────────────────────────────┐
-│           TechNews365 / Linux Installer       │
+│        TechNews365 / Linux Installer          │
 │                                              │
 │  • Auto-install using profile                 │
 │  • Configure system                           │
 │  • Install bootloader                         │
 │  • Finalize dual-boot                         │
 └──────────────────────────────────────────────┘
-
-
 
 
 ---
