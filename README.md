@@ -183,7 +183,7 @@ The Windows Agent executes it automatically.
 ### 🔹 Cloud‑powered distro catalog  
 Hosted on **technews365.fr**, always up to date.
 ## 🏗️ WinToLinux 2.0 — Architecture
-
+---
 ┌──────────────────────────────────────────────┐
 │              WinToLinux Web App              │
 │     (technews365.fr / Cloud Web Installer)   │
@@ -216,8 +216,6 @@ Hosted on **technews365.fr**, always up to date.
 │  • Install bootloader                         │
 │  • Finalize dual-boot                         │
 └──────────────────────────────────────────────┘
-
-
 ---
 
 ## 📦 Supported Distributions
