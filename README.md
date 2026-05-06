@@ -182,8 +182,24 @@ The Windows Agent executes it automatically.
 
 ### 🔹 Cloud‑powered distro catalog  
 Hosted on **technews365.fr**, always up to date.
-## 🏗️ WinToLinux 2.0 — Architecture
+
+## 📦 Supported Distributions
+
+- **TechNews365 OS Ultimate** (recommended)
+- LMDE 7
+- Debian 13
+- Ubuntu 24.04 LTS
+- Linux Mint 22
+- Zorin OS 17
+- Fedora Workstation
+- KDE Neon
+- Pop!_OS
+- And more…
+
 ---
+
+## 🛠 Project Structure
+## 🏗️ WinToLinux 2.0 — Architecture
 ┌──────────────────────────────────────────────┐
 │              WinToLinux Web App              │
 │     (technews365.fr / Cloud Web Installer)   │
@@ -205,7 +221,7 @@ Hosted on **technews365.fr**, always up to date.
 │  • Creates Linux partition                    │
 │  • Prepares UEFI boot entry                   │
 │  • Reboots into Linux installer               │
-└───────────────────────────────┬──────────────┘
+└───────────────────────────────────────────────┬──────────────┘
                                 │
                                 ▼
 ┌──────────────────────────────────────────────┐
@@ -216,44 +232,6 @@ Hosted on **technews365.fr**, always up to date.
 │  • Install bootloader                         │
 │  • Finalize dual-boot                         │
 └──────────────────────────────────────────────┘
----
-
-## 📦 Supported Distributions
-
-- **TechNews365 OS Ultimate** (recommended)
-- LMDE 7
-- Debian 13
-- Ubuntu 24.04 LTS
-- Linux Mint 22
-- Zorin OS 17
-- Fedora Workstation
-- KDE Neon
-- Pop!_OS
-- And more…
-
----
-
-## 🛠 Project Structure
-
-wintolinux/
-│
-├── web/                # Web App (HTML/CSS/JS/PHP)
-│   ├── api/            # distros.json, metadata
-│   ├── ui/             # pages, components
-│   └── assets/         # icons, css, branding
-│
-├── agent/              # Windows executable source
-│   ├── downloader/     # ISO download + checksum
-│   ├── partitioner/    # NTFS shrink + ext4 creation
-│   ├── bootloader/     # UEFI entry creation
-│   └── installer/      # profile interpreter
-│
-├── docs/               # documentation, diagrams
-│
-└── LICENSE             # GPLv3
-Code
-
-
 ---
 
 ## 📄 License
